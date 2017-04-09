@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_24sdp"
+        android:text="Stop"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/stop_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:textSize="@dimen/_24sdp"
+        android:text="9999"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/stop_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:textSize="@dimen/_15sdp"
+        android:text="Britomart"
+        />
+
+    <Button
+        android:id="@+id/bus_list_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:text="BusList"
+        />
+
+</LinearLayout>
